@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flujo volumetrico</title>
+    <link rel="shortcut icon" href="img/grafica.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+</head>
+<body>
+    <center>
+        <header class="titulo">
+            <h1>Desarrollo de un sistema de control de flujo volumétrico </h1>
+            <h1>en el mezclado automatizado de soluciones salinas para estabilizar</h1>
+            <h1>niveles de concentración de sal deseados</h1>
+        </header>
+    </center>
+    <div>
+        <center>
+            <table border="0" cellpading="10" class="tabla">
+                <tr>
+                    <td colspan="3">
+                        <center>
+                            <p>Graficas a tiempo Real:</p>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <div id="chart1"></div>
+                        </center>
+                    </td>
+                    <td>
+                       <h1></h1>
+                    </td>
+                    <td>
+                        <center>
+                            <div id="chart2"></div>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <center>
+            <img src="img/Sin título-2.png" alt="Participantes del equipo" class="equipo">
+        </center>
+    </div>
+    <footer class="pie">
+        Instituto tecnologico de Celaya
+    </footer>
+    <script src="graficas.js"></script>
+</body>
+</html>
